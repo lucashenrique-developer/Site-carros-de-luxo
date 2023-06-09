@@ -5,28 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porsche</title>
+    <link href="assets/style/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
 <header>
-    <nav class="nav-bar">
-        <div><img class="logo"src="assets/images/logo.png" alt="Logo Porsche"></div>
-        <ul class="nav-links">
-            <li class="nav-link active-link">Inicio</li>
-            <li class="nav-link">Serviços</li>
-            <li class="nav-link">Central da Porsche</li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#"><img class="logo" src="assets/images/logo.png" alt="Logo Porsche"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Central da Porsche</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    
 </header>
-<section>
-    <div class="main-section"></div>
+<section class="main-section">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/slide-img-2.jpg" class="d-block w-100" alt="Imagem slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>75 Anos</h3>
+                <h5>De paixão pela velocidade, precisão e inovação.</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/slide-img-4.jpg" class="d-block w-100" alt="Imagem slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Oitava Maravilha do Mundo</h3>
+                <h5>Uma sinfonia de cores vibrantes que reflete a emoção de dirigir um Porsche.</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/slide-img-5.jpg" class="d-block w-100" alt="Imagem slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Potência e Elegância Unidas</h3>
+                <h5>Embarque em uma jornada emocionante rumo à perfeição automotiva.</h5>
+              </div>
+            </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 </section>
-<div class="slideshow">
-    <img src="assets/images/slide-img-1.jpg" class="slide">
-  </div>
-<footer>
+<section class="section-2 phrase-section row">
+    <div class="phrase col-12"><h2>“Desperte a emoção. Acelere para a liberdade. Descubra a intensidade do mundo Porsche.”</h2>
+    <button class="button">Entre na ação</button></div>
+</section>
 
+<section class="section-3 row">
+    <div class="side-phrase side side-1 col-8"><h3>Superando os limites</h3><h5>Experiência em engenharia automotiva de classe mundial para impulsionar a inovação, alcançar a excelência e definir os padrões do setor.</h5></div>
+    <div class="side side-2 col-4"><img src="assets/images/phrase-img-2.jpg" alt=""></div>
+</section>
+
+<section id="gallery" class="section-4">
+    <div class="tile"><img src="" alt=""></div>
+    <div class="tile"><img src="" alt=""></div>
+    <div class="tile"><img src="" alt=""></div>
+    <div class="tile"><img src="" alt=""></div>
+    <div class="tile"><img src="" alt=""></div>
+    <div class="tile"><img src="" alt=""></div>
+    <div class="tile"><img src="" alt=""></div>
+    <div class="tile"><img src="" alt=""></div>
+    <div class="tile"><img src="" alt=""></div>
+</section>
+
+<section class="section-5 row">
+    <div class="side side-1 col-6"><img src="assets/images/phrase-img-5.jpg" alt=""></div>
+    <div class="side-phrase side side-2 col-6"><h3>Preservando a paixão</h3><h5>Uma celebração do estilo atemporal e da força bruta sobre rodas <span>&rarr;</span></h5></div>
+</section>
+
+<hr>
+
+<footer>
+    <div class="row">
+        <div class="col-4">
+            <ul>
+                <h5>Contatos</h5>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>E-mail</li>
+                <li>Pinterest</li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <ul>
+                <h5>Nosso blog</h5>
+                <li>Últimas notícias</li>
+                <li>Novos modelos</li>
+                <li>Museu da Porsche</li>
+                <li>Eventos esportivos</li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <ul>
+                <h5>Saiba mais</h5>
+                <li>Empregos e carreira</li>
+                <li>Central da Porsche</li>
+            </ul>
+        </div>
+    </div>
+    <p>Porsche&reg; All rights reserved</p>
 </footer>
+<script src="assets/js/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
