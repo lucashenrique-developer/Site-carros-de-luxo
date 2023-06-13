@@ -203,62 +203,97 @@
     background-color: hsl(19, 71%, 70%);
     height: 34%;
     width: 20%;
+    left: 2%;
     top: 5%;
+    background-image: url(/assets/images/gallery-image-h-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tile:nth-child(2){
     background-color: hsl(207, 71%, 70%);
     height: 50%;
-    width: 15%;
+    width: 20%;
     top: 45%;
+    left: 2%;
+    background-image: url(/assets/images/gallery-img-v-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tile:nth-child(3){
     background-color: hsl(0, 71%, 70%);
-    height: 45%;
+    height: 50%;
     width: 20%;
     left: 25%;
-    top: 15%;
+    top: 5%;
+    background-image: url(/assets/images/gallery-img-v-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tile:nth-child(4){
     background-color: hsl(290, 71%, 70%);
-    height: 25%;
-    width: 35%;
-    left: 18%;
-    top: 70%;
+    height: 35%;
+    width: 28%;
+    left: 25%;
+    top: 60%;
+    background-image: url(/assets/images/gallery-img-h-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tile:nth-child(5){
     background-color: hsl(219, 71%, 70%);
     height: 29%;
-    width: 23%;
-    left: 50%;
-    top: 10%;
+    width: 25%;
+    left: 71%;
+    top: 6%;
+    background-image: url(/assets/images/gallery-img-h-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tile:nth-child(6){
     background-color: hsl(135, 71%, 70%);
-    height: 47%;
+    height: 50%;
     width: 20%;
-    left: 57%;
-    top: 43%;
+    left: 48%;
+    top: 5%;
+    background-image: url(/assets/images/gallery-img-v-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tile:nth-child(7){
     background-color: hsl(73, 71%, 70%);
-    height: 40%;
+    height: 55%;
     width: 25%;
-    left: 80%;
-    top: 8%;
+    left: 71%;
+    top: 40%;
+    background-image: url(/assets/images/gallery-img-v-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 .tile:nth-child(8){
     background-color: hsl(244, 71%, 70%);
-    height: 30%;
-    width: 15%;
-    left: 85%;
-    top: 63%;
+    height: 34%;
+    width: 12%;
+    left: 56%;
+    top: 61%;
+    background-image: url(/assets/images/gallery-img-v-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
