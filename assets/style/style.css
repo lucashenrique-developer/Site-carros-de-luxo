@@ -41,6 +41,18 @@
     background-color: #fff;
 }
 
+.navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
+
+
+.navbar-toggler:focus { 
+    border: none; 
+    box-shadow: none;
+    background-color: rgb(241, 241, 241);;
+} 
+
 .nav-links{
     display: flex;
     align-items: center;
